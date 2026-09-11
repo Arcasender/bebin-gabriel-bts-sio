@@ -36,10 +36,13 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    display: inline-block;
+    transition: transform 0.2s ease; /* Rend l'effet fluide */
 }
 
 nav ul li a:hover {
-    color: #3498db;
+    color: white; /* Garde la couleur blanche sans bleuir */
+    transform: scale(1.15); /* Applique l'effet de zoom (grossit légèrement) */
 }
 
 main {
